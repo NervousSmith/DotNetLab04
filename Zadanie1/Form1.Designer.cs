@@ -28,13 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.trafficLights1 = new Zadanie1.TrafficLights();
+            this.SuspendLayout();
+            // 
+            // trafficLights1
+            // 
+            this.trafficLights1.CircleColor1 = System.Drawing.Color.Red;
+            this.trafficLights1.CircleColor2 = System.Drawing.Color.Yellow;
+            this.trafficLights1.CircleColor3 = System.Drawing.Color.Lime;
+            this.trafficLights1.Location = new System.Drawing.Point(313, 81);
+            this.trafficLights1.Name = "trafficLights1";
+            this.trafficLights1.Radius = 105;
+            this.trafficLights1.Size = new System.Drawing.Size(105, 315);
+            this.trafficLights1.State = 3;
+            this.trafficLights1.TabIndex = 0;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.trafficLights1);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private TrafficLights trafficLights1;
     }
 }
 
