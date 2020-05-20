@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace Zadanie4_1_
+namespace Zadanie5_2_
 {
     [XmlRoot(ElementName = "Osoba")]
     public class Osoba
@@ -34,7 +34,16 @@ namespace Zadanie4_1_
         public string ToString()
         {
             return "Imie: " + Imie + " Nazwisko: " + Nazwisko + " Wiek: " + Wiek;
+        }
 
+        public bool Equals(Osoba osoba)
+        {
+            bool equals = false;
+            if (this.Imie == osoba.Imie && this.Nazwisko == osoba.Nazwisko && this.Wiek == osoba.Wiek)
+            {
+                equals = true;
+            }
+            return equals;
         }
     }
 
