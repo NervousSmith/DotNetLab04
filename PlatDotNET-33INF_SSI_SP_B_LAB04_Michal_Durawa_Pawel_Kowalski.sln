@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tworzenie własnych komponentów", "Tworzenie własnych komponentów", "{F48EBA7A-9E28-4162-8F29-34AAA5FA8E7D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zagadnienia dotyczące przetwarzania plików XML", "Zagadnienia dotyczące przetwarzania plików XML", "{8536425B-1FF6-44D3-B296-941D5C9EA3E0}"
+	ProjectSection(SolutionItems) = preProject
+		XMLSchema1.xsd = XMLSchema1.xsd
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie1", "Zadanie1\Zadanie1.csproj", "{4976BD98-1A91-4817-A433-4A4AA4D8B14C}"
 EndProject
