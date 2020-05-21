@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace Zadanie6_3_
+namespace Zadanie7_4_
 {
     [XmlRoot(ElementName = "Osoba")]
     public class Osoba
