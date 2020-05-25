@@ -10,19 +10,12 @@ using System.Windows.Forms;
 
 namespace Zadanie9_6_
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
-            this.IsMdiContainer = true;
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Form2 MDIchild = new Form2();
-            MDIchild.MdiParent = this;
-            MDIchild.Show();
+            pictureBox1.Image = Image.FromFile("..\\..\\coffee.jpg");
         }
     }
 }
